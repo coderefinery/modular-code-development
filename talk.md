@@ -189,7 +189,7 @@ get_bmi()
 
 ## Recommendations
 
-- Keep I/O on the outside and connected ([examples later](#45))
+- Keep I/O on the outside and connected
 - Keep the inside of your code pure/stateless
 
 <img src="img/good-vs-bad.svg" style="width: 100%;"/>
