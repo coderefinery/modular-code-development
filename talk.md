@@ -31,9 +31,7 @@ layout: false
 ## [The tar pit](http://shaffner.us/cs/papers/tarpit.pdf)
 
 - Over time software tends to become harder and harder to reason about
-- The code base easily becomes untidy ("I'll fix it later")
 - Small changes become harder to implement
-- Hacks and workarounds trump design
 - Bugs start appearing in unexpected places
 - More time is spent debugging than developing
 - Complexity strangles development because it does not scale well
@@ -61,35 +59,16 @@ layout: false
 
 ---
 
-## Prefer loose coupling and high cohesion
+## Composition
 
-- Strong coupling
+- Build complex behavior from simple components
+- We can reason about the components and the composite
+- Composition is key to managing complexity
+- Modularity does not imply simplicity, but is enabled by it
 
-![](img/strong-coupling.svg)
+<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
 
-- Loose coupling
-    - Easier to reassemble
-    - Easier to understand
-
-![](img/loose-coupling.svg)
-
----
-
-## Prefer loose coupling and high cohesion
-
-- Low cohesion: difficult to maintain, test, reuse, or even understand
-    - Non-cohesive code introduces unnecessary dependencies
-    - Swiss army knife modules
-
-![](img/low-cohesion.svg)
-
-- High cohesion: robust, reliable, reusable, understandable
-    - **Do one thing only and do it well**
-    - API of cohesive code changes less over time
-    - Power of the Unix command line is a set of highly cohesive tools
-    - Microservices
-
-![](img/high-cohesion.svg)
+(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
 
 ---
 
@@ -143,7 +122,7 @@ get_bmi()
 
 ## f: $x \rightarrow x^2$
 
-## blender: fruits $\rightarrow$ shake
+## blender: fruits $\rightarrow$ juice
 
 ## oven: (ingredients, temperature, time) $\rightarrow$ cake
 
@@ -158,28 +137,7 @@ get_bmi()
 
 ---
 
-## Composition
-
-- Build complex behavior from simple components
-- We can reason about the components and the composite
-- Composition is key to managing complexity
-- Modularity does not imply simplicity, but is enabled by it
-
-<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
-
-(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
-
----
-
-## One way to look at your code
-
-![](img/main-inside.svg)
-
-- The main function calls other functions
-
----
-
-## Another way to look at your code
+## A cut through the code
 
 ![](img/main-outside.svg)
 
@@ -214,16 +172,13 @@ get_bmi()
   - if a function gets too long
   - if a function does more than one thing
   - if you find it hard to name a function
-- A function that performs a single operation is simpler to
-  understand, test, and reuse
-- A function that does not fit on one screen is too long
 
----
+## Documentation
 
-## Import and export
-
-- Import as little as possible
-- Export as little as possible
+- Separate the "what it can do" from "how is it implemented"
+- Document your API
+- Version your API ([semantic](http://semver.org) or [sentimental](http://sentimentalversioning.org)
+  or [romantic](https://github.com/jashkenas/backbone/issues/2888#issuecomment-29076249) versioning)
 
 ---
 
@@ -235,12 +190,10 @@ get_bmi()
   If you open the door you're responsible for what you see." [R. Hettinger]
 - Expose the "what", hide the "how"
 
-## Documentation
+## Import and export
 
-- Separate the "what it can do" from "how is it implemented"
-- Document your API
-- Version your API ([semantic](http://semver.org) or [sentimental](http://sentimentalversioning.org)
-  or [romantic](https://github.com/jashkenas/backbone/issues/2888#issuecomment-29076249) versioning)
+- Import as little as possible
+- Export as little as possible
 
 ---
 
@@ -260,8 +213,7 @@ get_bmi()
 
 ## Conclusions
 
-- Modular and well structured code is easy to test
-- Entangled code is difficult to test
-- Introduce testing early - it will **automatically guide you towards a modular and well structured code**
+- Divide and isolate
+- Unit test
 - Compose your code out of **pure functions**
 - Prefer immutable data structures, do not overuse classes
