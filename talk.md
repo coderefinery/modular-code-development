@@ -173,6 +173,7 @@ get_bmi()
 ## Conclusions
 
 - Divide and isolate
-- Unit test
+- Introduce tests early
 - Compose your code out of **pure functions**
-- Prefer immutable data structures, do not overuse classes
+- Prefer immutable data structures
+- Do not overuse classes
