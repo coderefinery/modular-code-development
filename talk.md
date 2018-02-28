@@ -99,15 +99,7 @@ get_bmi()
 
 ---
 
-## .red[function: input $\rightarrow$ output]
-
-## f: $x \rightarrow x^2$
-
-## blender: fruits $\rightarrow$ juice
-
-## oven: (ingredients, temperature, time) $\rightarrow$ cake
-
-## .blue[Pure functions are easier to]
+## Pure functions are easier to
 
 - Test
 - Understand
