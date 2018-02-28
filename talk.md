@@ -177,3 +177,14 @@ get_bmi()
 - Compose your code out of **pure functions**
 - Prefer immutable data structures
 - Do not overuse classes
+
+---
+
+## Discuss in a group
+
+- What best practices can you recommend to arrive at well structured, modular
+  code in your favourite programming language?
+- What would you recommend your colleague who starts in the same programming language?
+- How do you deal with code complexity in your projects?
+
+### Write down your findings in a shared document
