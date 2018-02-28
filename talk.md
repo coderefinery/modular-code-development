@@ -118,16 +118,9 @@ get_bmi()
 
 ---
 
-## A cut through the code
-
-![](img/main-outside.svg)
-
-- The main function ("program" in Fortran) is on the outside shell
-
----
-
 ## Recommendations
 
+- I/O is impure
 - Keep I/O on the outside and connected
 - Keep the inside of your code pure/stateless
 
