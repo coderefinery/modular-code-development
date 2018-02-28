@@ -188,3 +188,151 @@ get_bmi()
 - How do you deal with code complexity in your projects?
 
 ### Write down your findings in a shared document
+
+---
+
+## Possible discussion points are below
+
+Show how to structure a Python project:
+
+- https://github.com/bast/somepackage
+
+Become friends with these packages:
+
+- https://docs.python.org/3/library/itertools.html
+- https://docs.python.org/3/library/collections.html
+
+---
+
+## Main function vs. global scope
+
+### a) main function
+
+```python
+def do_something(input):
+    # ...
+    return something
+
+def main():
+    result = do_something(2.0)
+    print(result)
+
+if __name__ == '__main__':
+    main()
+```
+
+### b) global scope
+
+```python
+def do_something(input):
+    # ...
+    return something
+
+result = do_something(2.0)
+print(result)
+```
+
+---
+
+## Implicit vs. named arguments
+
+### a) implicit
+
+```python
+bmi = get_bmi(90.0, 1.91)
+```
+
+### b) named
+
+```python
+bmi = get_bmi(mass_kg=90.0, height_m=1.91)
+```
+
+---
+
+## File I/O
+
+### a) pass file name
+
+```python
+# parse_input1 function opens and reads the file
+result = parse_input1(file_name)
+```
+
+### b) pass file handle
+
+```python
+with open(file_name, 'r') as f:
+    # parse_input2 reads the file
+    result = parse_input2(f)
+```
+
+### c) pass data
+
+```python
+with open(file_name, 'r') as f:
+    input_lines = f.readlines()
+    # parse_input3 does not know anything about the file
+    result = parse_input3(input_lines)
+```
+
+---
+
+## Loop vs. map/filter
+
+### a) loop
+
+```python
+numbers = [1, 2, 3, 4, 5]
+
+squares = []
+for number in numbers:
+    squares.append(number**2)
+
+odds = []
+for number in numbers:
+    if number%2 == 1:
+        odds.append(number)
+```
+
+### b) map and filter
+
+```python
+numbers = [1, 2, 3, 4, 5]
+
+squares = map(lambda x: x**2, numbers)
+odds = filter(lambda x: x%2 == 1, numbers)
+```
+
+---
+
+### a) class
+
+```python
+class Pet:
+    def __init__(self, name):
+        self.name = name
+        self.hunger = 0
+    def go_for_a_walk(self):
+        self.hunger += 1
+
+my_dog = Pet('Pluto')
+my_dog.go_for_a_walk()
+print(my_dog.hunger)
+```
+
+### b) named tuple
+
+```python
+from collections import namedtuple
+
+def go_for_a_walk(pet):
+    new_hunger = pet.hunger + 1
+    return pet._replace(hunger=new_hunger)
+
+Pet = namedtuple('Pet', ['name', 'hunger'])
+
+my_dog = Pet(name='Pluto', hunger=0)
+my_dog = go_for_a_walk(my_dog)
+print(my_dog.hunger)
+```
