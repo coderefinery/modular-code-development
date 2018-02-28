@@ -139,13 +139,6 @@ get_bmi()
   - if a function does more than one thing
   - if you find it hard to name a function
 
-## Documentation
-
-- Separate the "what it can do" from "how is it implemented"
-- Document your API
-- Version your API ([semantic](http://semver.org) or [sentimental](http://sentimentalversioning.org)
-  or [romantic](https://github.com/jashkenas/backbone/issues/2888#issuecomment-29076249) versioning)
-
 ---
 
 ## Encapsulation
