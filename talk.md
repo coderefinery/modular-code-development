@@ -128,6 +128,10 @@ get_bmi()
   - modules
   - packages (Python) or libraries (C or or C++ or Fortran)
 
+## Abstract
+
+- Rule of 3: if you need it 3rd time, abstract it into something more general
+
 ---
 
 ## Functions, functions, functions
