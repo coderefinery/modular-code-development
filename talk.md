@@ -40,26 +40,7 @@ layout: false
 
 ---
 
-## Modular design is good
-
-### Examples
-
-- Lego
-- Car manufacturing
-- Design of your phone or laptop
-- Modular composition when you order a laptop
-- Success of USB
-- Study programs
-
-### Advantages
-
-- Separation of concerns
-- Composability
-- Leveraging functionality
-
----
-
-## Composition
+## Modularity and composition
 
 - Build complex behavior from simple components
 - We can reason about the components and the composite
