@@ -107,6 +107,7 @@ get_bmi()
 - Parallelize
 - Simplify
 - Optimize
+- Compose
 
 ---
 
