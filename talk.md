@@ -200,6 +200,29 @@ get_bmi()
 
 ---
 
+## Project layout
+
+- Documentation sources **always** in the same repository as the code! Often under `doc/`.
+- Tests either close to the implementation or in own directory `test/` or `tests/`.
+- Sources under `src/` unless it is a Python package, then under `packagename/`.
+- It is possible to next Git repositories
+  using [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+
+### Python
+
+- Collect related functions into modules.
+- Collect related modules into packages.
+
+### Fortran
+
+- One module per file. File name equals module name.
+
+### C/C++
+
+- Separate interface files and implementation files.
+
+---
+
 ## Conclusions
 
 - Divide and isolate
