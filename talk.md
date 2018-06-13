@@ -178,6 +178,7 @@ get_bmi()
 ### Simple is better than complex
 
 - If you cannot understand or explain a function on a cold gray Monday morning before coffee, it is too complex. (Quote adapted from [Pieter Hintjens, Social Architecture, 2009](https://www.gitbook.com/book/hintjens/social-architecture/details))
+- "Only God and I knew": https://twitter.com/farbodsaraf/status/1006215492607111168
 
 ---
 
