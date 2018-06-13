@@ -200,6 +200,9 @@ get_bmi()
 
 ### Write down your findings in a shared document
 
+- Later we will discuss these together
+- We can share and discuss our personal experiences
+
 ---
 
 ## Possible discussion points are below
