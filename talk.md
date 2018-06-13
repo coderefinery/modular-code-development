@@ -182,6 +182,24 @@ get_bmi()
 
 ---
 
+## Formatting and styling
+
+### Python
+
+- Follow [PEP8](https://www.python.org/dev/peps/pep-0008/)
+- Check with pycodestyle
+- Autoformat with https://github.com/google/yapf
+
+### C/C++
+
+- Autoformat with [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html)
+
+### Other languages
+
+- [Please complete this list by sending pull requests]
+
+---
+
 ## Conclusions
 
 - Divide and isolate
