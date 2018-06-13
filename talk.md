@@ -109,6 +109,12 @@ get_bmi()
 - Optimize
 - Compose
 
+
+### Examples
+
+- Unix shell
+- Mathematical functions
+
 ---
 
 ## Recommendations
