@@ -32,7 +32,7 @@ layout: false
 
 - Over time software tends to become harder and harder to reason about
 - Small changes become harder to implement
-- Bugs start appearing in unexpected places
+- **Bugs start appearing in unexpected places**
 - More time is spent debugging than developing
 - Complexity strangles development because it does not scale well
 
