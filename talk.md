@@ -112,8 +112,8 @@ get_bmi()
 
 ### Examples
 
-- Unix shell
 - Mathematical functions
+- Unix shell
 
 ---
 
