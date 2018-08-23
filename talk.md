@@ -112,8 +112,17 @@ get_bmi()
 
 ### Examples
 
-- Mathematical functions
-- Unix shell
+Mathematical functions:
+
+$$ f(x, y) = x - x^2 + x^3 + y^2 + xy $$
+
+$$ (f \circ g)(x) = f(g(x)) $$
+
+Unix shell:
+
+```shell
+$ cat somefile | grep somestring | sort | uniq | ...
+```
 
 ---
 
