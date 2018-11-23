@@ -28,7 +28,7 @@ layout: false
 
 ---
 
-## [The tar pit](http://shaffner.us/cs/papers/tarpit.pdf)
+## [The tar pit](https://github.com/papers-we-love/papers-we-love/blob/master/design/out-of-the-tar-pit.pdf)
 
 - Over time software tends to become harder and harder to reason about
 - Small changes become harder to implement
