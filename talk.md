@@ -1,4 +1,3 @@
-name: inverse
 layout: true
 class: middle, inverse
 
@@ -21,6 +20,17 @@ Credits: [Jonas Juselius](https://github.com/juselius),
 ---
 
 layout: false
+
+## Questions
+
+- What best practices can you recommend to arrive at well structured, modular
+  code in your favourite programming language?
+- What would you recommend your colleague who starts in the same programming language?
+- How do you deal with code complexity in your projects?
+
+### First some food for thought ...
+
+---
 
 ## Simple vs. easy
 
