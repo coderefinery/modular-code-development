@@ -70,7 +70,7 @@ layout: false
 
 ## Example: pure vs. stateful
 
-### a) pure
+### a) pure: no side effects
 
 ```python
 # function which computes the body mass index
@@ -81,7 +81,7 @@ def get_bmi(mass_kg, height_m):
 bmi = get_bmi(mass_kg=90.0, height_m=1.91))
 ```
 
-### b) stateful
+### b) stateful: side effects
 
 ```python
 mass_kg = 90.0
