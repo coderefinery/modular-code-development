@@ -83,28 +83,27 @@ layout: false
 ### a) pure: no side effects
 
 ```python
-# function which computes the body mass index
-def get_bmi(mass_kg, height_m):
-    return mass_kg/(height_m**2)
+def fahrenheit_to_celsius(temp_f):
+    temp_c = (temp_f - 32.0) * (5.0/9.0)
+    return temp_c
 
-# compute the body mass index
-bmi = get_bmi(mass_kg=90.0, height_m=1.91))
+temp_c = fahrenheit_to_celsius(temp_f=100.0)
+print(temp_c)
 ```
 
 ### b) stateful: side effects
 
 ```python
-mass_kg = 90.0
-height_m = 1.91
-bmi = 0.0
+f_to_c_offset = 32.0
+f_to_c_factor = 0.555555555
+temp_c = 0.0
 
-# function which computes the body mass index
-def get_bmi():
-    global bmi
-    bmi = mass_kg/(height_m**2)
+def fahrenheit_to_celsius_bad(temp_f):
+    global temp_c
+    temp_c = (temp_f - f_to_c_offset) * f_to_c_factor
 
-# compute the body mass index
-get_bmi()
+fahrenheit_to_celsius_bad(temp_f=100.0)
+print(temp_c)
 ```
 
 ---
