@@ -52,7 +52,7 @@ layout: false
 
 ## Modularity and composition
 
-- Build complex behavior from simple components
+- .emph[Build complex behavior from simple components]
 - We can reason about the components and the composite
 - Composition is key to managing complexity
 - Modularity does not imply simplicity, but is enabled by it
@@ -67,7 +67,7 @@ layout: false
 
 - Pure functions have no notion of state: They take input values and return
   values
-- Given the same input, a pure function *always* returns the same value
+- .emph[Given the same input, a pure function *always* returns the same value]
 - Function calls can be optimized away
 - Pure function == data
 
@@ -241,7 +241,7 @@ $ cat somefile | grep somestring | sort | uniq | ...
 
 - Divide and isolate
 - Introduce tests early
-- Compose your code out of **pure functions**
+- .emph[Compose your code out of pure functions]
 - Prefer immutable data structures
 - Do not overuse classes
 
