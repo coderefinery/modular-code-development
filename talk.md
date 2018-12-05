@@ -242,7 +242,7 @@ $ cat somefile | grep somestring | sort | uniq | ...
 - Divide and isolate
 - Introduce tests early
 - .emph[Compose your code out of pure functions]
-- Prefer immutable data structures
+- Prefer immutable data structures (fun fact: Git commits are immutable)
 - Do not overuse classes
 
 ---
