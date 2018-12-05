@@ -14,8 +14,8 @@ Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org
 Code examples: [MIT license](http://opensource.org/licenses/mit-license.html)
 
 Credits: [Jonas Juselius](https://github.com/juselius),
-         [Roberto Di Remigio](http://totaltrash.xyz),
-         [Ole Martin Bjørndalen](https://github.com/olemb)
+[Roberto Di Remigio](http://totaltrash.xyz),
+[Ole Martin Bjørndalen](https://github.com/olemb)
 
 ---
 
@@ -71,7 +71,6 @@ layout: false
 - Function calls can be optimized away
 - Pure function == data
 
-
 <img src="img/bugbarrier.jpg" style="width: 40%;"/>
 
 (Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
@@ -118,14 +117,13 @@ print(temp_c)
 - Optimize
 - Compose
 
-
 ### Examples
 
 Mathematical functions:
 
-$$ f(x, y) = x - x^2 + x^3 + y^2 + xy $$
+$$f(x, y) = x - x^2 + x^3 + y^2 + xy$$
 
-$$ (f \circ g)(x) = f(g(x)) $$
+$$(f \circ g)(x) = f(g(x))$$
 
 Unix shell:
 
@@ -234,6 +232,11 @@ $ cat somefile | grep somestring | sort | uniq | ...
 ### C/C++
 
 - Separate interface files and implementation files.
+
+### R
+
+- use [devtools](https://github.com/r-lib/devtools) to develop packages
+- [devtools](https://github.com/r-lib/devtools) wraps around packages to generate tests ([testthat](https://github.com/r-lib/testthat)) and documentation ([roxygen2](https://github.com/klutometis/roxygen))
 
 ---
 
