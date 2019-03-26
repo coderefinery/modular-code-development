@@ -32,6 +32,13 @@ layout: false
 
 ---
 
+## Who is the audience that will read your code?
+
+### - Machines
+### - People
+
+---
+
 ## Simple vs. easy
 
 <img src="img/development-speed.svg" style="width: 80%;"/>
