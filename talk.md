@@ -162,8 +162,6 @@ $ cat somefile | grep somestring | sort | uniq | ...
   - modules
   - packages (Python) or libraries (C or or C++ or Fortran)
 
----
-
 ## Functions, functions, functions
 
 - Build your code from functions
