@@ -41,9 +41,9 @@ class: center, middle, inverse
 
 ---
 
-## Simple vs. easy
+<img src="img/development-speed.svg" style="width: 80%;"/>
 
-<img src="img/development-speed.svg" style="width: 70%;"/>
+Discuss whether you agree or not and what "properly" means.
 
 .cite[Adapted from ["Simple Made Easy" by Rich Hickey](https://www.infoq.com/presentations/Simple-Made-Easy)]
 
