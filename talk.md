@@ -32,10 +32,12 @@ layout: false
 
 ---
 
+class: center, middle, inverse
+
 ## Who is the audience that will read your code?
 
-### - Machines
-### - People
+## - Machines
+## - People
 
 ---
 
