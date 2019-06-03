@@ -256,6 +256,7 @@ $ cat somefile | grep somestring | sort | uniq | ...
 - .emph[Compose your code out of pure functions]
 - Prefer immutable data structures (fun fact: Git commits are immutable)
 - Do not overuse classes
+- Think about people reading your code, do not ["Write Unmaintainable Code"](https://www.doc.ic.ac.uk/~susan/475/unmain.html)
 
 ---
 
