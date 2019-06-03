@@ -53,7 +53,7 @@ layout: false
 - More time is spent debugging than developing
 - Complexity strangles development because it does not scale well
 
-(Slide adapted from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
+.cite[Slide adapted from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity)]
 
 ---
 
@@ -66,7 +66,7 @@ layout: false
 
 <img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
 
-(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
+.cite[Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity)]
 
 ---
 
@@ -80,7 +80,7 @@ layout: false
 
 <img src="img/bugbarrier.jpg" style="width: 40%;"/>
 
-(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
+.cite[Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity)]
 
 ---
 
