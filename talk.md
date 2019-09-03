@@ -9,7 +9,7 @@ class: middle, inverse
 
 ### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
 
-Text is free to share and remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Text is free to share and remix under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
 
 Code examples: [MIT license](http://opensource.org/licenses/mit-license.html)
 
