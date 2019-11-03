@@ -271,3 +271,8 @@ $ cat somefile | grep somestring | sort | uniq | ...
 
 - Later we will discuss these together
 - We can share and discuss our personal experiences
+
+### Each group should select a chair and a scribe
+
+- Chair: to encourage equal participation
+- Scribe: to write notes (with the help of the group)
