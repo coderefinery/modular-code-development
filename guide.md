@@ -34,7 +34,7 @@ By the end of this lesson, learners should:
 - Be able to visualize their code in form of a call tree (note that this is
   currently not in the material)
 - Know where in the call tree to locate "impurity" (state, side effects,
-  input/output) and which part of the call tree To keep pure
+  input/output) and which part of the call tree to keep pure
 - Be able to recognize when to divide a code portion into a function
 - Be able to recognize when to divide a function into functions
 - Understand the advantages (and disadvantages) of encapsulation
